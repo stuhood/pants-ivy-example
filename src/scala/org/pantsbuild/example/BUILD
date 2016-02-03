@@ -1,4 +1,12 @@
 scala_library(
   name='example',
   sources=globs('*.scala'),
+  provides=artifact(
+    org='org.pantsbuild.example',
+    name='example',
+    repo=repository(
+      name='public',
+      push_db_basedir='build-support/pushdb'
+    ),
+  ),
 )
