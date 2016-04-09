@@ -1,0 +1,4 @@
+<scalastyle commentFilter="enabled">
+ <name>Scalastyle configuration</name>
+ <check level="warning" class="org.scalastyle.scalariform.ImportGroupingChecker" enabled="true"></check>
+</scalastyle>
